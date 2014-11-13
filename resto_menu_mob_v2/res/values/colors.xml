@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="background_df">#ffCCCC99</color>
+    <color name="numberpicker_button_text">#FFFFFFFF</color>
+    <color name="dialog_background_df">#ffCCCC99</color>
+    <color name="item_text_df">#FF424A4D</color>
+    <color name="dialog_text_df">#FF424A4D</color>
+    <color name="item_background">#E3E3C7</color>
+    <color name="item_text">#424A4D</color>
+    <color name="item_head_background">#929267</color>
+    <color name="item_head_text">#E1E19E</color>
+    <color name="lbl_table">#FFFFFF</color>
+    <color name="menu_separator">#11121212</color>
+    <color name="powered_by">#FFFFFF</color>
+    <color name="menu_title">#000000</color>
+    <color name="order_header_background">#555555</color>
+    <color name="order_header_text">#FFFFFF</color>
+
+</resources>

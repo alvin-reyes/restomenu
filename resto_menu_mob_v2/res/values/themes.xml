@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+ 
+  <!-- Easymenu NG  -->
+  
+  <style name="Theme" parent="android:Theme">
+		<item name="android:windowTitleSize">20dip</item>
+  </style>
+  
+  <style name="Theme.Default">
+    <item name="android:buttonStyle">@style/button_df</item>
+  </style>   
+    
+  <!-- End Easymenu NG --> 
+    
+<!--  <style name="CstmTheme" parent="@android:style/Theme">-->
+<!--    <item name="android:buttonStyle">@style/emButton</item>-->
+<!--  </style>-->
+ 
+</resources>
+
+
+

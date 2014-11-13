@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal" android:background="@color/dialog_background_df"
+    android:orientation="vertical" android:padding="20dip">
+
+    <TextView
+        android:id="@+id/txtErrDlg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:padding="10dip"
+        android:text="Medium Text" android:textColor="@color/dialog_text_df"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnErrDlg" android:layout_marginTop="20dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnOK" style="@style/button_df"/>
+
+</LinearLayout>

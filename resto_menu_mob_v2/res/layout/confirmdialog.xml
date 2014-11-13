@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal" android:background="@color/dialog_background_df"
+    android:orientation="vertical" android:padding="20dip">
+
+    <TextView
+        android:id="@+id/txtConfDlg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:padding="10dip"
+        android:text="Medium Text" android:textColor="@color/dialog_text_df"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <LinearLayout  android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" >
+    <Button
+        android:id="@+id/btnConfDlgYes" android:layout_marginTop="20dip"
+        android:layout_width="wrap_content" android:textSize="22sp" android:padding="10dip"
+        android:layout_height="wrap_content"
+        android:text="OK" style="@style/button_df"/>
+    
+     <Button
+        android:id="@+id/btnConfDlgNo" android:layout_marginTop="20dip"
+        android:layout_width="wrap_content" android:textSize="22sp" android:padding="10dip"
+        android:layout_height="wrap_content"
+        android:text="Not yet" style="@style/button_df"/>
+     
+    </LinearLayout>
+
+</LinearLayout>
